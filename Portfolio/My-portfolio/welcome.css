@@ -1,0 +1,78 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --borderColor: #c1c1c1;
+    --mainText: black;
+    --secondaryText: #4b5156;
+    --themeDotBorder: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+    --buttonColor: black;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: var(--mainColor);
+    text-align: center;
+}
+
+h1 {
+    color: var(--mainText);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input {
+    width: 300px;
+    margin: 18px 0px;
+    font-size: 1.5rem;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline-color: transparent;
+    outline-style: none;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.hello {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 300px;
+    font-size: 1.8rem;
+}
+
+.output {
+    position: relative;
+    width: 340px;
+    height: 220px;
+    margin: 50px auto;
+    padding-top: 100px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: #87D37C;
+    color: #fff;
+    text-align: right;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sub-btn {
+    padding: 0.5rem;
+    PADDING-LEFT: 7rem;
+    padding-right: 7rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
